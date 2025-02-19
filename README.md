@@ -61,3 +61,9 @@ http://localhost:8888
 If you are using VScode, you can install the [Jupiter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) to edit `.ipynb` files, without interacting with the web browser interface.
 
 Then, you can change the Jupiter kernel setting `localhost:8888` as the new one. This allows you to execute the Jupiter file locally.
+
+
+## Personal directory
+
+If you wish use some notebooks please create a directory named `personal` inside `src/`.
+This folder will be automatically shared with the container and will not be tracked by git.
